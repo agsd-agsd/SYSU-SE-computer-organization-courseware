@@ -1,0 +1,103 @@
+# =========================================
+# LaTeX / TeX temporary & build files
+# =========================================
+
+## Core auxiliary files
+*.aux
+*.bbl
+*.blg
+*.brf
+*.idx
+*.ilg
+*.ind
+*.lof
+*.lot
+*.toc
+*.out
+*.toc
+*.lof
+*.lot
+*.glo
+*.gls
+*.ist
+*.acn
+*.acr
+*.alg
+
+## Intermediate files
+*.dvi
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.log
+*.nav
+*.snm
+*.vrb
+*.xdv
+
+## Beamer specific
+*.nav
+*.snm
+*.vrb
+
+## Editor backups
+*~
+*.bak
+*.backup
+*.swp
+*.swo
+*.tmp
+*.temp
+
+## LaTeX build tools (latexmk / arara / texify)
+*.pdfsync
+*.run.xml
+*.bcf
+
+## Output directories
+_build/
+latex.out/
+output/
+build/
+temp/
+cache/
+
+# =========================================
+# IDE / Editor specific
+# =========================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# TeXstudio / TeXShop
+*.synctex.gz(busy)
+*.synctex(busy)
+*.texpadtmp
+
+# Overleaf local files
+*.overleaf
+
+# =========================================
+# System files
+# =========================================
+
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# =========================================
+# Keep important files
+# =========================================
+!.tex
+!.bib
+!.cls
+!.sty
+!.pdf
+!.md
+!.gitignore
+README*
+LICENSE*
